@@ -2,12 +2,3 @@ apply plugin: 'de.dfki.mary.voicebuilding'
 
 group 'de.dfki.mary'
 version '5.1.2'
-
-voice {
-    name 'upmc-jessica-hsmm'
-    language 'fr'
-    gender 'female'
-    type 'hsmm'
-    description 'A female French hidden semi-Markov model voice, built at ISIR (UPMC) using data recorded by Jessica Durand'
-    samplingRate 16000
-}
