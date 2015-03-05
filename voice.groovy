@@ -1,6 +1,8 @@
 voice {
     name = 'upmc-jessica-hsmm'
-    language = 'fr'
+    locale {
+        language = 'fr'
+    }
     gender = 'female'
     type = 'hsmm'
     description = 'A female French hidden semi-Markov model voice, built at ISIR (UPMC) using data recorded by Jessica Durand'
